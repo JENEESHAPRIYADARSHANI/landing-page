@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
           <div className="max-w-xs">
             <a href="#" className="flex items-center gap-2 font-bold text-lg mb-4">
-              <img src="public/logo.png" alt="Quick Drive Logo" className="w-7 h-7 object-contain" />
+              <img src={`${import.meta.env.BASE_URL}logo.png`} alt="Quick Drive Logo" className="w-7 h-7 object-contain" />
               Quick Drive
             </a>
             <p className="text-sm text-background/60 leading-relaxed font-semibold">

@@ -58,13 +58,13 @@ const Hero = () => {
             <div className="relative h-[600px] w-full flex items-center justify-center animate-float">
               {/* Back Image */}
               <img
-                src="public/2.png"
+                src={`${import.meta.env.BASE_URL}2.png`}
                 alt="Extension Interface Background"
                 className="absolute right-[-4%] top-6 w-[68%] h-[420px] lg:h-[480px] object-cover object-top rounded-[48px] shadow-2xl border border-border/50 transform rotate-[5deg] scale-95 opacity-85 hover:opacity-100 transition-all duration-500 hover:scale-100 hover:rotate-[7deg] hover:z-20 cursor-pointer"
               />
               {/* Front Image */}
               <img
-                src="public/3.png"
+                src={`${import.meta.env.BASE_URL}3.png`}
                 alt="Extension Interface Foreground"
                 className="absolute left-[-2%] bottom-8 w-[72%] h-[460px] lg:h-[520px] object-cover object-top rounded-[48px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)] border-[8px] border-background transform -rotate-[2deg] z-10 transition-all duration-500 hover:scale-105 hover:rotate-0 cursor-pointer"
               />

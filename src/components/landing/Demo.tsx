@@ -43,7 +43,7 @@ const Demo = () => {
           >
             {/* Visual placeholder for screenshots */}
             <div className="w-full h-full shadow-lg rounded-xl overflow-hidden flex items-center justify-center animate-fade-in relative z-10">
-              <img src="public/1.png" alt="Side Panel Preview" className="w-full h-full object-contain bg-background" />
+              <img src={`${import.meta.env.BASE_URL}1.png`} alt="Side Panel Preview" className="w-full h-full object-contain bg-background" />
             </div>
             {/* Background elements */}
             <div className="absolute top-1/2 left-1/2 -translate-x-1/2 -translate-y-1/2 w-3/4 h-3/4 bg-primary/5 rounded-full blur-[80px]" />
