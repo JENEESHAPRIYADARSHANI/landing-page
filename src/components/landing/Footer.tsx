@@ -7,7 +7,7 @@ const Footer = () => {
         <div className="flex flex-col md:flex-row justify-between items-start gap-8 mb-12">
           <div className="max-w-xs">
             <a href="#" className="flex items-center gap-2 font-bold text-lg mb-4">
-              <img src="/logo.png" alt="Quick Drive Logo" className="w-7 h-7 object-contain" />
+              <img src="public/logo.png" alt="Quick Drive Logo" className="w-7 h-7 object-contain" />
               Quick Drive
             </a>
             <p className="text-sm text-background/60 leading-relaxed font-semibold">
@@ -15,12 +15,18 @@ const Footer = () => {
             </p>
           </div>
 
-          <div className="flex gap-16 md:gap-24">
+          <div className="flex gap-12 md:gap-16 flex-wrap">
             <div>
               <h4 className="text-sm font-semibold mb-4 text-background/80">Company</h4>
               <ul className="space-y-2.5 flex flex-col">
                 <a href="#" className="text-sm text-background/50 hover:text-background transition-colors">About</a>
-                <a href="#" className="text-sm text-background/50 hover:text-background transition-colors">Contact / Support</a>
+              </ul>
+            </div>
+            <div>
+              <h4 className="text-sm font-semibold mb-4 text-background/80">Contact Us</h4>
+              <ul className="space-y-2.5 flex flex-col">
+                <a href="mailto:support@quickdrive.com" className="text-sm text-background/50 hover:text-background transition-colors">support@quickdrive.com</a>
+                <a href="tel:+18001234567" className="text-sm text-background/50 hover:text-background transition-colors">+94701285444</a>
               </ul>
             </div>
             <div>

@@ -55,24 +55,21 @@ const Hero = () => {
             transition={{ duration: 0.7, delay: 0.2 }}
             className="relative"
           >
-            <div className="relative bg-card rounded-2xl shadow-elevated border border-border/50 overflow-hidden outline outline-1 outline-border/50 ring-4 ring-primary/5 animate-float h-[500px] w-full flex items-center justify-center bg-muted/20">
-              <div className="text-center p-6">
-                <Chrome className="w-16 h-16 mx-auto mb-4 text-primary opacity-50" />
-                <p className="text-lg font-medium text-foreground">A clean, distraction-free side panel</p>
-                <p className="text-sm text-muted-foreground mt-2">designed for speed and simplicity.</p>
-              </div>
+            <div className="relative h-[600px] w-full flex items-center justify-center animate-float">
+              {/* Back Image */}
+              <img
+                src="public/2.png"
+                alt="Extension Interface Background"
+                className="absolute right-[-4%] top-6 w-[68%] h-[420px] lg:h-[480px] object-cover object-top rounded-[48px] shadow-2xl border border-border/50 transform rotate-[5deg] scale-95 opacity-85 hover:opacity-100 transition-all duration-500 hover:scale-100 hover:rotate-[7deg] hover:z-20 cursor-pointer"
+              />
+              {/* Front Image */}
+              <img
+                src="public/3.png"
+                alt="Extension Interface Foreground"
+                className="absolute left-[-2%] bottom-8 w-[72%] h-[460px] lg:h-[520px] object-cover object-top rounded-[48px] shadow-[0_35px_60px_-15px_rgba(0,0,0,0.4)] border-[8px] border-background transform -rotate-[2deg] z-10 transition-all duration-500 hover:scale-105 hover:rotate-0 cursor-pointer"
+              />
             </div>
 
-            {/* Floating badges */}
-            <div className="absolute top-6 -left-8 bg-card rounded-xl shadow-elevated border border-border/50 px-4 py-3 flex items-center gap-3">
-              <div className="w-8 h-8 rounded-full bg-success/10 flex items-center justify-center">
-                <CircleCheck className="w-4 h-4 text-success" />
-              </div>
-              <div>
-                <p className="text-xs font-semibold text-foreground">Upload Complete</p>
-                <p className="text-[10px] text-muted-foreground">Saved to /Inspiration</p>
-              </div>
-            </div>
           </motion.div>
         </div>
       </div>

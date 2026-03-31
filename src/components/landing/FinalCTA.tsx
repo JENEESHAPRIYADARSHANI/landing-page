@@ -26,9 +26,6 @@ const FinalCTA = () => {
                 <Chrome className="w-5 h-5 mr-2" />
                 Add to Chrome
               </Button>
-              <Button size="xl" variant="ghost" className="text-primary-foreground border-2 border-primary-foreground/20 hover:bg-primary-foreground/10 hover:text-primary-foreground">
-                Start Free Trial
-              </Button>
             </div>
           </div>
         </motion.div>

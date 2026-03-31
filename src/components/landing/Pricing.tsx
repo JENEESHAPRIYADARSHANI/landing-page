@@ -46,8 +46,6 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-
-            <Button variant="outline" className="w-full" size="lg">Start Free Trial</Button>
           </motion.div>
 
           {/* Pro Plan */}
@@ -82,8 +80,6 @@ const Pricing = () => {
                 </li>
               ))}
             </ul>
-
-            <Button className="w-full font-semibold shadow-md hover:shadow-lg transition-shadow" size="lg">Start Free Trial</Button>
           </motion.div>
         </div>
       </div>

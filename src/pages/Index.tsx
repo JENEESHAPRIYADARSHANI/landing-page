@@ -10,6 +10,7 @@ import Testimonials from "@/components/landing/Testimonials";
 import FAQ from "@/components/landing/FAQ";
 import FinalCTA from "@/components/landing/FinalCTA";
 import Footer from "@/components/landing/Footer";
+import FloatingRateButton from "@/components/landing/FloatingRateButton";
 
 const Index = () => {
   return (
@@ -26,6 +27,7 @@ const Index = () => {
       <FAQ />
       <FinalCTA />
       <Footer />
+      <FloatingRateButton />
     </div>
   );
 };
